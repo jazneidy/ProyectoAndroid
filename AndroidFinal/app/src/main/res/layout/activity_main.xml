@@ -7,13 +7,13 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="co.edu.uniquindio.android.electiva.androidfinal.Main">
+    tools:context=".activity.Main">
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageButton2"
-        android:src="@drawable/sugerenicasuno"
+        android:src="@drawable/sugerenicas"
         android:layout_centerHorizontal="true"
         android:layout_above="@+id/imageButton4" />
 
@@ -60,5 +60,6 @@
         android:layout_above="@+id/imageButton4"
         android:layout_alignRight="@+id/imageButton"
         android:layout_alignEnd="@+id/imageButton" />
+
 
 </RelativeLayout>
