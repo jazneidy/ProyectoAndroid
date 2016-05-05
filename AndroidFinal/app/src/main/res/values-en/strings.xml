@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndroidFinal</string>
+    <string name="universidad">Quindio University</string>
+    <string name="noticias">Notices</string>
+    <string name="sugerencia">Suggestions</string>
+    <string name="directorio">Directory</string>
+    <string name="back">Back</string>
+</resources>

@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">AndroidFinal</string>
     <string name="universidad">Universidad Del Quindio</string>
@@ -5,5 +6,4 @@
     <string name="sugerencia">Sugerencias</string>
     <string name="directorio">Directorio</string>
     <string name="back">Atras</string>
-
 </resources>
