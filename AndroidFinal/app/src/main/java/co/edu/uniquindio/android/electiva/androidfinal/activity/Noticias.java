@@ -6,6 +6,10 @@ import android.view.View;
 
 import co.edu.uniquindio.android.electiva.androidfinal.R;
 
+/**
+ * @author jazneidy
+ *
+ */
 public class Noticias extends AppCompatActivity {
 
     @Override

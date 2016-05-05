@@ -5,5 +5,9 @@
     <string name="sugerencia">Sugerencias</string>
     <string name="directorio">Directorio</string>
     <string name="back">Atras</string>
+    <string name="sugerenciasUniquindio">Sugerencias Uniquindio</string>
+    <string name="NoticiasUniquindio">Noticias Uniquindio</string>
+    <string name="directorioUniquindio">Directorio Uniquindio</string>
+
 
 </resources>

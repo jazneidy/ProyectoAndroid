@@ -25,15 +25,16 @@
             android:layout_weight="0.58"
             android:background="#016f30"
             android:drawableLeft="@drawable/ic_atras"
-            android:text="Inicio"
+            android:text="@string/back"
+            android:onClick="irAAtras"
             android:textColor="#ffffff" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.44"
-            android:text="SUGERENCIAS"
+            android:text="Sugerencias Uniquindio"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textColor="#ffffff" />
     </LinearLayout>
@@ -70,12 +71,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nombre:"
-            android:textSize="@dimen/abc_text_size_title_material"></TextView>
+            android:textSize="@dimen/abc_text_size_title_material">
+
+        </TextView>
         <EditText
             android:id="@+id/etSubject"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="170dip"></EditText>
+            android:width="170dip">
+
+        </EditText>
     </LinearLayout>
 
 
@@ -86,18 +91,15 @@
         android:layout_marginTop="150dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/txtForEmail"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Correo:"
-            android:textSize="@dimen/abc_text_size_title_material"></TextView>
+
 
         <EditText
             android:id="@+id/etEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:width="170dip"></EditText>
+            android:width="170dip">
+
+        </EditText>
     </LinearLayout>
 
     <LinearLayout
@@ -125,7 +127,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:width="300dip"
-            android:lines="5"></EditText>
+            android:lines="5">
+
+        </EditText>
     </LinearLayout>
 
 

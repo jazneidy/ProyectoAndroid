@@ -1,24 +1,24 @@
 package co.edu.uniquindio.android.electiva.androidfinal.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 
 import co.edu.uniquindio.android.electiva.androidfinal.R;
 
 /**
  * @author jazneidy
- * Clase activiad Directorio
- * se encontraran  los metodos principales de la actividad
+ * Esta es la actividad Conexion.
+ * Se crearan los metodos principales de la Actividad.
  */
-public class Directorio extends AppCompatActivity {
+public class Conexion extends AppCompatActivity {
 
     /**
-     * Metodo Create
+     * Metodo create
      * @param savedInstanceState
      */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_directorio);
+        setContentView(R.layout.activity_conexion);
     }
 }
