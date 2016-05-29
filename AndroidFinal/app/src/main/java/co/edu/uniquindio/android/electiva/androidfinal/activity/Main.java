@@ -12,6 +12,7 @@ import android.view.View;
 import java.util.Locale;
 
 import co.edu.uniquindio.android.electiva.androidfinal.R;
+import co.edu.uniquindio.android.electiva.androidfinal.utils.ConexionUtils;
 
 /**
  * Actividad principal
@@ -28,8 +29,22 @@ public class Main extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        if(!ConexionUtils.hasInternet(this)){
+            Intent i = new Intent(this, Conexion.class);
+            startActivity(i);
+            this.finish();
+        }
         getSupportActionBar().hide();
+    }
+
+    @Override
+    protected void onResume() {
+        if(!ConexionUtils.hasInternet(this)){
+            Intent i = new Intent(this, Conexion.class);
+            startActivity(i);
+            this.finish();
+        }
+        super.onResume();
     }
 
     /**
