@@ -5,9 +5,6 @@
     <string name="sugerencia">Sugerencias</string>
     <string name="directorio">Directorio</string>
     <string name="back">Atras</string>
-    <string name="sugerenciasUniquindio">Sugerencias Uniquindio</string>
-    <string name="NoticiasUniquindio">Noticias Uniquindio</string>
-    <string name="directorioUniquindio">Directorio Uniquindio</string>
-
+    <string name="facebook_app_id">1647728518799526</string>
 
 </resources>

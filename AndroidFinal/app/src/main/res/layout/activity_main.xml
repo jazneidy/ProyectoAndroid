@@ -85,6 +85,8 @@
                 android:gravity="center">
 
 
+
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -92,7 +94,6 @@
                     android:drawableTop="@drawable/noticia22"
                     android:text="@string/sugerencia"
                     android:id="@+id/textView22"
-                    android:onClick="irASugerencias"
                     android:layout_margin="10dp" />
 
                 <TextView
